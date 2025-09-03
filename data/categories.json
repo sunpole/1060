@@ -1,0 +1,5 @@
+[
+    {"id": 1, "name": "Электроника", "color": "#ff6b6b"},
+    {"id": 2, "name": "Книги", "color": "#4ecdc4"},
+    {"id": 3, "name": "Еда", "color": "#ffe66d"}
+]
