@@ -13,7 +13,7 @@ export class UI {
                         ${category?.name || 'Без категории'}
                     </p>
                     <p class="price">${product.price} руб.</p>
-                    <button onclick="onAddToCart(${product.id})" class="add-btn">
+                    <button onclick="addToCart(${product.id})" class="add-btn">
                         🛒 Добавить
                     </button>
                 </div>
@@ -37,7 +37,7 @@ export class UI {
                 <span class="item-name">${item.name}</span>
                 <span class="item-quantity">×${item.quantity}</span>
                 <span class="item-price">${item.price * item.quantity} руб.</span>
-                <button onclick="onRemoveFromCart(${item.id})" class="remove-btn">
+                <button onclick="removeFromCart(${item.id})" class="remove-btn">
                     ❌
                 </button>
             </div>
