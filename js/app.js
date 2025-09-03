@@ -67,8 +67,10 @@ class ShopApp {
     }
 
     render() {
-        UI.renderProducts(this.products, this.categories, this.cart, this.addToCart);
-        UI.renderCart(this.cart, this.removeFromCart);
+        UI.renderProducts(this.products, this.categories, this.cart, 
+            (productId) => this.addToCart(productId));
+        UI.renderCart(this.cart, 
+            (productId) => this.removeFromCart(productId));
         
         // Обновляем счетчик корзины
         document.getElementById('cart-count').textContent = this.cart.getTotalCount();
