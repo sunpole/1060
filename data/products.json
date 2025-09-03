@@ -1,0 +1,6 @@
+[
+    {"id": 1, "name": "Ноутбук", "price": 50000, "categoryId": 1, "image": "💻"},
+    {"id": 2, "name": "Смартфон", "price": 30000, "categoryId": 1, "image": "📱"},
+    {"id": 3, "name": "Книга", "price": 500, "categoryId": 2, "image": "📚"},
+    {"id": 4, "name": "Кофе", "price": 300, "categoryId": 3, "image": "☕"}
+]
