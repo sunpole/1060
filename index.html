@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛍️ ES6 Магазин</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛍️ ES6 Магазин</h1>
+            <div class="cart-info">
+                <span>Корзина: </span>
+                <span id="cart-count">0</span>
+                <span>товаров</span>
+            </div>
+        </header>
+
+        <div id="loading">Загрузка товаров...</div>
+
+        <main>
+            <section class="products-section">
+                <h2>📦 Наши товары</h2>
+                <div id="products-container" class="products-grid">
+                    <!-- Товары будут здесь -->
+                </div>
+            </section>
+
+            <section class="cart-section">
+                <h2>🛒 Ваша корзина</h2>
+                <div id="cart-container">
+                    <!-- Корзина будет здесь -->
+                </div>
+                <div class="cart-total">
+                    <strong>Итого: <span id="cart-total">0</span> руб.</strong>
+                </div>
+                <button onclick="clearCart()" class="clear-btn">Очистить корзину</button>
+            </section>
+        </main>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
