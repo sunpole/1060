@@ -1,6 +1,12 @@
 [
-    {"id": 1, "name": "Ноутбук", "price": 50000, "categoryId": 1, "image": "💻"},
-    {"id": 2, "name": "Смартфон", "price": 30000, "categoryId": 1, "image": "📱"},
-    {"id": 3, "name": "Книга", "price": 500, "categoryId": 2, "image": "📚"},
-    {"id": 4, "name": "Кофе", "price": 300, "categoryId": 3, "image": "☕"}
+    {"id": 1, "name": "Ноутбук Gaming", "price": 75000, "categoryId": 1, "image": "💻", "stock": 15},
+    {"id": 2, "name": "Смартфон Pro", "price": 45000, "categoryId": 1, "image": "📱", "stock": 30},
+    {"id": 3, "name": "Наушники", "price": 8000, "categoryId": 1, "image": "🎧", "stock": 25},
+    {"id": 4, "name": "Программирование на JavaScript", "price": 1200, "categoryId": 2, "image": "📚", "stock": 50},
+    {"id": 5, "name": "Фантастический роман", "price": 600, "categoryId": 2, "image": "📖", "stock": 40},
+    {"id": 6, "name": "Кофе зерновой", "price": 500, "categoryId": 3, "image": "☕", "stock": 100},
+    {"id": 7, "name": "Чай элитный", "price": 800, "categoryId": 3, "image": "🍵", "stock": 75},
+    {"id": 8, "name": "Монитор 4K", "price": 35000, "categoryId": 1, "image": "🖥️", "stock": 20},
+    {"id": 9, "name": "Клавиатура механическая", "price": 5000, "categoryId": 1, "image": "⌨️", "stock": 35},
+    {"id": 10, "name": "Мышь игровая", "price": 3000, "categoryId": 1, "image": "🐁", "stock": 45}
 ]
